@@ -1,0 +1,33 @@
+.flex-lg{
+    background: #c5c2c2;
+    height: 535px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+}
+
+.panel-flex{
+    /*margin: auto;*/
+}
+
+.panel-login{
+    background: white;
+    border-radius: 6px;
+    box-shadow: 2px 2px 2px grey;
+    padding: 10px;
+}
+
+.panel-c{
+    font-size: 20px;
+    font-weight: 700;
+    width: 300px;
+}
+
+.icon-l{
+    margin-right: 5px;
+}
+
+.inline-l{
+    display: inline-flex;
+}

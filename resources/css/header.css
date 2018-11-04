@@ -1,0 +1,12 @@
+.img-avatar-header{
+    width: 34px;
+    border-radius: 50%;
+    margin-left: 5px;
+    margin-right: 5px;
+    
+}
+
+.user-detalles{
+    right: 0;
+    left: auto;
+}

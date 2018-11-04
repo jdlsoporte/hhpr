@@ -11,5 +11,24 @@ const mix = require('laravel-mix');
  |
  */
 
-mix.js('resources/js/app.js', 'public/js')
-   .sass('resources/sass/app.scss', 'public/css');
+mix.js(
+    [
+        'node_modules/jquery/dist/jquery.js',
+        
+        'node_modules/bootstrap/dist/js/bootstrap.js',
+        'node_modules/popper.js/dist/popper.js',
+        
+    ], 'public/js/vendor.js')
+.styles(
+    [
+        'node_modules/@fortawesome/fontawesome-free/css/all.css',
+        'node_modules/bootstrap/dist/css/bootstrap.css',
+        'resources/css/header.css',
+        'resources/css/user.css'
+    ],'public/css/app.css')
+.styles(
+    [
+        
+        'resources/css/login.css'
+    ],'public/css/login.css');
+   //.sass('resources/assets/sass/app.scss', 'public/css');

@@ -1,0 +1,22 @@
+.i-avatar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-avatar{
+    width: 50%;
+}
+.icons-edit{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.title-edit{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.click-icon{
+    margin: 0 2px;
+}
